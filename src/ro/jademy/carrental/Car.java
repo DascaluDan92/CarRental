@@ -3,32 +3,42 @@ package ro.jademy.carrental;
 public class Car {
 
     // Q: how can we better represent the car make?
+    // associate the car with a hashtag
     public String make;
     public String model;
     public Integer year;
 
     // Q: how can we better represent the car type?
-    public String carType; // coupe, sedan, hatchback, convertible, wagon, SUV
+    public String carType;
+    // coupe, sedan, hatchback, convertible, wagon, SUV
+    //implement this in every car model
 
     // Q: how can we better represent the motor type?
-    public String fuelType; // diesel, gasoline, alternative
+    public String fuelType;
+    // diesel, gasoline, alternative
+    // implement in model and make
 
     public Integer doorNumber;
+    // imlement in model
 
     public String color;
+    // implement in model
 
     // Q: how can we better represent the transmission type?
     public String transmissionType; // automatic, manual
 
     // Q: how can we better represent the engine?
     public String engine;
+    // cc, horsepower
 
     // Q: how can we better represent money value?
     public String basePrice;
+    //initial price, after more uses, after an accident,
 
 
     // Q: do we need a constructor other than the default one?
     // Q: how can we better protect the car data?
+    // getter and setter
 
 
 
